@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  .content-container {
+    grid-template-columns: 1fr;
+  }
+
+  .video-details .meta-data {
+    grid-template-columns: 1fr;
+  }
+
+  .video-details .meta-data .social-data {
+    display: flex;
+    gap: 0.625rem;
+    justify-content: flex-start;
+    margin-top: 0.625rem;
+  }
+
+  .content-container .more-videos {
+    border-top: 1px dashed #444;
+    margin-top: 2rem;
+    padding-top: 2rem;
+  }
+
+  .content-container .more-videos .more-video-item {
+    grid-template-columns: 6rem 1fr;
+  }
+}

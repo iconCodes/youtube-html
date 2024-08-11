@@ -1,0 +1,30 @@
+.pill {
+  display: inline-flex;
+  background-color: #333;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.375rem 0.625rem;
+  font-size: 0.875rem;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+
+.pill:hover {
+  background-color: #444;
+}
+
+.avatar {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+.avatar:hover {
+  filter: brightness(110%);
+}
